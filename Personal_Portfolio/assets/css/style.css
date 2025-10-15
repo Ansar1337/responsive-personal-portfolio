@@ -378,7 +378,6 @@ img {
 .button--flex {
     display: inline-flex;
     align-items: center;
-    margin-left: 80px;
 }
 
 .button--small {
@@ -1308,5 +1307,9 @@ img {
 
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .button--flex.cv {
+        margin-left: 80px;
     }
 }
